@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="main-div">
+        <input type="text" class="search" id="search" placeholder="Search for a city..." />
+        <div class="loader" id="loader">
+            <div class="loader-inner">
+              <div class="loader-line-wrap">
+                <div class="loader-line"></div>
+              </div>
+              <div class="loader-line-wrap">
+                <div class="loader-line"></div>
+              </div>
+              <div class="loader-line-wrap">
+                <div class="loader-line"></div>
+              </div>
+              <div class="loader-line-wrap">
+                <div class="loader-line"></div>
+              </div>
+              <div class="loader-line-wrap">
+                <div class="loader-line"></div>
+              </div>
+            </div>
+          </div>
+        <h3 class="prompt" id="prompt">Please enter a valid city name</h3>
+        <h2 class="city" id="city"></h2>
+        <p class="date" id="date"></p>
+        <h1 class="temp" id="temp"></h1>
+        <h2 class="weather" id="weather"></h2>
+        <div class="min-max-temp-div" id="min-max-temp-div">
+            <h4 class="min-temp" id="min-temp"></h4>
+            <span class="sp">/</span>
+            <h4 class="max-temp" id="max-temp"></h4>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
